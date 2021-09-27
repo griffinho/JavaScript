@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Erik Caue">
+    <title>Exercicio 3.10-B</title>
+</head>
+<body>
+    <script>
+        /*Ler o valor correspondente ao salário mensal (variável SM) de um trabalhador e também o valor do 
+percentual de reajuste (variável PR) a ser atribuído. Apresentar o valor do novo salário (variável NS).
+*/
+        var SM = parseFloat(prompt("Digite o salário mensal do funcionario"));
+        var PR = parseFloat(prompt("Digite o reajuste"));
+        var NS = SM + ((PR/100)*SM);
+        alert ("O novo salario do funcionario é: "+NS);
+    </script>
+</body>
+</html>

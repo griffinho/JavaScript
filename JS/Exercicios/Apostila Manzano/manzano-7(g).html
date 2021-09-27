@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Erik Caue">
+    <title>Exercicio 7-G</title>
+</head>
+
+<body>
+    <script>
+        /*Ler dois valores (inteiros, reais ou caracteres) para as variáveis A e B, e efetuar a troca dos valores de 
+forma que a variável A passe a possuir o valor da variável B e a variável B passe a possuir o valor da 
+variável A. Apresentar os valores trocados*/
+        var a = parseInt(prompt("Digite o valor de A: "));
+        var b = parseInt(prompt("Digite o valor de B: "));
+        var c = parseInt(prompt("Digite o valor de C: "));
+        var d = parseInt(prompt("Digite o valor de d: "));
+
+        var soma1 = (a + b);
+        var soma2 = (a + c);
+        var soma3 = (a + d);
+        var soma4 = (b + c);
+        var soma5 = (b + d);
+        var soma6 = (c + d);
+
+        var mult1 = (a * b);
+        var mult2 = (a * c);
+        var mult3 = (a * d);
+        var mult4 = (b * c);
+        var mult5 = (b * d);
+        var mult6 = (c * d);
+
+        alert("Soma de A com B: " + soma1+
+            "\nSoma de A com C: " + soma2+
+            "\nSoma de A com D: " + soma3+
+            "\nSoma de B com C: " + soma4+
+            "\nSoma de B com D: " + soma5+
+            "\nSoma de C com D: " + soma6);
+
+        alert("Multiplicação de A com B: " + mult1+
+            "\nMultiplicação de A com C: " + mult2+
+            "\nMultiplicação de A com D: " + mult3+
+            "\nMultiplicação de B com C: " + mult4+
+            "\nMultiplicação de B com D: " + mult5+
+            "\nMultiplicação de C com D: " + mult6);
+    </script>
+</body>
+
+</html>

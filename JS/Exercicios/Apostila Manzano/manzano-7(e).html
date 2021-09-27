@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Erik Caue">
+    <title>Exercicio 7-E</title>
+</head>
+<body>
+    <script>
+        /*Efetuar o cálculo e a apresentação do valor de uma prestação em atraso, utilizando a fórmula 
+PRESTACAO ← VALOR + (VALOR * TAXA/100) * TEMPO).*/
+        var valor = parseInt(prompt("Digite o valor da prestação: "));
+        var taxa = parseInt(prompt("Digite o valor da taxa: "));
+        var tempo = parseInt(prompt("Digite tempo de atraso: "));
+        var pretacao = valor + (valor * taxa/100) * tempo;
+
+        alert("O valor da prestação é: "+pretacao);
+    </script>
+</body>
+</html>
