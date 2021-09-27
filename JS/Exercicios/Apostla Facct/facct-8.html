@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facct-8</title>
+</head>
+<body>
+    <script>
+        /* Elaborar um programa que efetue a leitura de três valores (A,B e C) e apresente como resultado final o 
+quadrado da soma dos três valores lidos.*/
+        var brancos = parseInt(prompt("Digite o total de votos em branco: "));
+        var nulos = parseInt(prompt("Digite o total de votos nulos: "));
+        var validos = parseInt(prompt("Digite o total de votos validos: "));
+        var total = brancos + nulos + validos;
+        var percentualB = (brancos/total)*100;
+        var percentualN =  (nulos/total)*100;
+        var percentualV = (validos/total)*100;
+        alert("O percentual de votos branco foi: "+percentualB+"%"+"\n"+"O percentual de votos nulos foi: "+percentualN+"%"+"\n"+"O percentual de votos validos foi: "+percentualV+"%");
+    </script>
+</body>
+</html>

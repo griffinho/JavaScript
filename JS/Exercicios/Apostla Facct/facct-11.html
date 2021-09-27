@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facct-11</title>
+</head>
+<body>
+    <script>
+        /*Escreva um algoritmo para ler o salário mensal atual de um funcionário e o percentual de reajuste. 
+Calcular e escrever o valor do novo salário.*/
+       var salariofixo = parseInt(prompt("Digite o salario fixo do vendedor: "));
+       var totallcarros = parseInt(prompt("Digite o total de carros vendidos pelo vendedor: "));
+       var comisao = parseInt(prompt("Digite o valor que ele recebe por cada carro vendido: "));
+       var totalvendido = parseInt(prompt("Digite o valor total de suas vendas: "));
+       var comisaototal = totallcarros*comisao;
+       var percentual = (5/100)*totalvendido;
+       var final = comisaototal+salariofixo+percentual;
+       alert("O salario final do vendedor vai ser de: R$"+final.toFixed(2));
+       
+    </script>
+     
+</body>
+</html>

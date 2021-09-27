@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facct-24</title>
+</head>
+<body>
+    <script>    
+   var salariof = parseFloat(prompt("Digite o salario fixo do funcionario: "));
+   var valorvendas = parseFloat(prompt("Digite o valor das vendas efetuadas pelo funcionario: "))
+
+   if(valorvendas > 1500){
+       var comisao1 = (3/100)*1500;
+       var comisao2 = valorvendas-1500;
+       comisao2 = (5/100)*comisao2;
+       var total = salariof + comisao1;
+       alert("O salario total do funcionario será de: R$"+total);
+   }
+   else{
+       var comisao1 = (3/100)*valorvendas;
+       var total = salariof + comisao1;
+       alert("O salario total do funcionario será de: R$"+total);
+   }
+    </script>
+</body>
+</html>

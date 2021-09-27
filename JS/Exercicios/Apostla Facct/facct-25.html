@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facct-25</title>
+</head>
+<body>
+    <script>    
+        var conta = parseFloat("Digite o numero ");
+        var saldo = parseFloat("Digite o seu sado");
+        var debito = parseFloat("Digite o debito da sua conta");
+        var credito = parseFloat("Digite o credito sa sua conta");
+
+        var saldoatual = saldo-debito+credito;
+        alert("Saldo atual: R$"+saldoatual);
+        if(saldoatual >= 0){
+            alert("SALDO POSITIVO");
+        }
+        else{
+            alert("SALDO NEGATIVO")
+        }
+
+    </script>
+</body>
+</html>

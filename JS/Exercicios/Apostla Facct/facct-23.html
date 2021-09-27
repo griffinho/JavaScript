@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facct-23</title>
+</head>
+<body>
+    <script>
+
+        var nome = prompt("Digite seu nome: ");
+        var altura = parseFloat(prompt("Digite sua altura: "));
+        var sexo = prompt("Digite seu sexo:\n[M] para masculino\n[F] para feminino");
+
+        if(sexo == 'M' | sexo == 'm'){
+            var pesoideal = (72.7*altura)-58
+            alert(nome+" o seu peso ideal é de: "+pesoideal);
+        }
+        else if(sexo == 'F' | sexo == 'f'){
+            var pesoideal = (62.1*altura)-44.7
+            alert(nome+" o seu peso ideal é de: "+pesoideal);
+        }
+        else{
+            alert("Sexo não indentificado");
+        }
+    </script>
+</body>
+</html>
